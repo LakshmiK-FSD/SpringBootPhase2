@@ -1,5 +1,8 @@
 package org.example;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class KeyBoard implements Writer{
     @Override
     public void writer() {
